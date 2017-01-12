@@ -1,0 +1,55 @@
+.zg-button{
+    display: block;
+    border: 0 solid transparent;
+    border-radius:25px;
+    background-color: #ef3333;
+    padding:7px 20px;
+    font-size:12px;
+    width: 70px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing:2px;
+    font-weight: 500;
+}
+
+.zg-button-white{
+    border: 2px solid #ef3333;
+    background: #FFFFFF;
+    color:#ef3333;
+}
+
+.zg-button-rectangle{
+
+    background-color: #ef3333;
+    padding:7px 20px;
+    font-size:12px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing:2px;
+    font-weight: 500;
+    border: 2px solid white;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.zg-inputbox input{
+    font-family: 'Microsoft YaHei', serif;
+    border: 1px solid #dedede;
+    font-size: 12px;
+    text-indent: 5px;
+    line-height: 24px;
+    outline: none;
+    width: 175px;
+    border-radius: 3px;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+}
+
+.zg-inputlabel{
+    padding-bottom: 5px;font-size: 14px;
+}

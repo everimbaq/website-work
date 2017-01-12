@@ -1,0 +1,24 @@
+.case{
+
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.logo{
+    background-color:#333333;
+    width:360px;
+    height: 250px;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+}
+.logo img{
+    display: inline-block;
+    max-width: 280px;
+    max-height: 200px;
+}
+
+.case .desc{
+    font-size: 15px;
+    margin-top: 5px;
+}

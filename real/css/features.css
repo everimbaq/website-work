@@ -1,0 +1,25 @@
+.feature{
+    padding:15px 35px;
+    width: 38%;
+    margin-top:0;
+    /*height:200px;*/
+    display: inline-block;
+    vertical-align: top;
+}
+
+.feature .feature_line{
+    height: 4px;border: 10px rgb(255, 85, 85);background-color: rgb(255, 85, 85);
+    width: 100%;margin:15px auto;
+}
+
+.feature .feature_text{
+    width: 100%;font-size:13px;
+}
+
+.feature .feature_title_desc{
+    width: 100%;color: rgb(255, 85, 85);font-size:30px;
+}
+
+.feature .feature_title_logo{
+    margin: 0 auto 15px;
+}
