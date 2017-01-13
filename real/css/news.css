@@ -10,6 +10,8 @@
 .news_item{
     margin-bottom: 20px;
     max-height: 150px;
+    text-align: left;
+    max-width: 500px;
 }
 
 .news_item .news_item_title{

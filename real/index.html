@@ -13,8 +13,8 @@
 <body>
     <div class="body" style="">
         <div class="header" >
-            <div class="full_logo" >
-                <img id ="header_logo" src="pic/logo.jpg" >
+            <div class="full_logo " >
+                <img id ="header_logo" src="pic/logo.png" >
             </div>
             <div class="header_title1"  >
                 <div class="header_title1_style" >
@@ -33,11 +33,13 @@
                 <div class="header_nav_div">
                     <div class="nav1">
                         <ul class="nav_ul1">
-                            <li style="z-index:2;" class="wp_subtop" ><a class="header_nav_content" href="index.html">首页</a></li>
-                            <li style="z-index:2;" class="wp_subtop" ><a class="header_nav_content" href="news.html">新闻中心</a></li>
-                            <li style="z-index:2;" class="wp_subtop" ><a class="header_nav_content" href="features.html">我们的服务</a></li>
-                            <li style="z-index:2;" class="wp_subtop" ><a class="header_nav_content" href="customer.html">合作项目</a></li>
-                            <li style="z-index:2;" class="wp_subtop" ><a class="header_nav_content" href="about.html">关于我们</a></li>
+                            <li class="wp_subtop" ><a class="header_nav_content" href="index.html">首页</a></li>
+                            <li class="wp_subtop" ><a class="header_nav_content" href="news.html">新闻中心</a></li>
+                            <li class="wp_subtop" ><a class="header_nav_content" href="features.html">我们的服务</a></li>
+                            <li class="wp_subtop" ><a class="header_nav_content" href="customer.html">合作项目</a></li>
+                            <li class="wp_subtop" ><a class="header_nav_content" href="index.html#solution">核心业务</a></li>
+                            <li class="wp_subtop" ><a class="header_nav_content" href="about.html">关于我们</a></li>
+                            <li class="wp_subtop" ><a class="header_nav_content" href="index.html#contact">联系我们</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,29 +60,46 @@
                 </div>
             </div>
 
-
+            <div class="data" style="padding:20px 0;background-color: rgb(249, 249, 249);text-align: center;">
+                <div class="data-items" style="display: inline-block;">
+                    <div class="data-item">
+                        <div class="data-item-title">800万<span class="title-little">+</span></div>
+                        <span class=" data-item-desc">企业客户信赖之选</span>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-item-title">120<span class="title-little">个</span></div>
+                        <span class=" data-item-desc">政府企事业单位合作伙伴</span>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-item-title">500+<span class="title-little">个</span></div>
+                        <span class=" data-item-desc">品牌策划经验</span>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-item-title">3<span class="title-little">年</span></div>
+                        <span class=" data-item-desc">诚信合作者</span>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-item-title">15+<span class="title-little">项</span></div>
+                        <span class=" data-item-desc">核心技术知识产权</span>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-item-title">92%<span class="title-little"></span></div>
+                        <span class=" data-item-desc">以上的客户续费率</span>
+                    </div>
+                </div>
+            </div>
             <!--核心业务-->
-            <div class="solution" style="width:100%;height:500px;text-align: center;">
+            <div class="solution" id="solution" style="width:100%;height:500px;text-align: center;">
                 <!--title-->
-                <div style="margin: 5% auto 0; height: 69px; width: 177px; display: block;text-align: center;" >
-                    <div style="font-size: 42px; height: 69px;">核心业务</div>
+                <div style="margin: 5% auto 0;text-align: center;display: inline-block;" >
+                    <div style="font-size: 42px; height: 69px;">我们的服务</div>
                     <div style="font-size: 18px;height: 27px;">SOLUTION</div>
                 </div>
+                <div></div>
+
                 <!--content-->
 
                 <div class="solution_detail" style="margin: 5% auto 0; height: 150px;display: inline-block;">
-                    <!--<div class="solution_logo_text">-->
-                        <!--<p style="width: 100%;">-->
-                            <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/zgop.png">-->
-                        <!--</p>-->
-                        <!--<div style="font-size: 20px;width: 100%;margin-top: 5px;">多商户商城</div>-->
-                    <!--</div>-->
-                    <!--<div class="solution_logo_text">-->
-                        <!--<p style="width: 100%;">-->
-                            <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/zgop.png">-->
-                        <!--</p>-->
-                        <!--<div style="font-size: 20px;width: 100%;margin-top: 5px;">多商户商城</div>-->
-                    <!--</div>-->
                     <div class="solution_logo_text">
                         <p style="width: 100%;">
                             <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/zgop.png">
@@ -93,7 +112,7 @@
                         </p>
                         <div style="font-size: 20px;width: 100%;margin-top: 5px;">晨正咨询</div>
                     </div>
-                    <div class="solution_logo_text endline">
+                    <div class="solution_logo_text">
                         <p style="width: 100%;">
                             <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/zgop.png">
                         </p>
@@ -117,69 +136,72 @@
             </div>
 
             <!--我们的服务-->
-            <div class="service" style="z-index: -3;margin-top:-100px;width:100%;height:970px;background-image: url('http://tpl-ceb9392.pic31.websiteonline.cn/upload/bg_hk6t.jpg');background-size: cover;">
-                <div style="margin:220px auto 0; width: 297px; height: 58px;">
-                    <div style="overflow: hidden; width: 297px; height: 58px;">
-                            <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/8r7r.png" >
-                    </div>
-                </div>
-                <div style="margin:5px auto 0;width: 204px; height: 40px;">
-                    <div>
-                        <h5 style="outline: none; font-weight: normal; font-size: 26px; font-stretch: normal; line-height: 42px; color: rgb(153, 153, 153); text-align: center;">
-                            <span style="color:#b7b2ac;">OUR SERVICE</span>
-                        </h5>
-                    </div>
-                </div>
-                <div class="service_itemlist" style="text-align: center;margin-top: 70px;">
-                    <div class="service_item">
-                        <div style="width: 100%; height: 145px;">
-                            <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">
-                        </div>
-                        <p class="service_item_title">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                    </div>
-                    <div class="service_item">
-                        <div style="width: 100%; height: 145px;">
-                            <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">
-                        </div>
-                        <p class="service_item_title">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                    </div>
-                    <div class="service_item">
-                        <div style="width: 100%; height: 145px;">
-                            <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">
-                        </div>
-                        <p class="service_item_title">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                    </div>
-                    <div class="service_item">
-                        <div style="width: 100%; height: 145px;">
-                            <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">
-                        </div>
-                        <p class="service_item_title">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                    </div>
-                    <div class="service_item endline">
-                        <div style="width: 100%; height: 145px;">
-                            <img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">
-                        </div>
-                        <p class="service_item_title">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                        <p class="service_item_content">多商户商城</p>
-                    </div>
-                </div>
-                </div>
-            <!--服务特点-->
-            <!--<div class="property" style="background-image: url('http://tpl-ceb9392.pic31.websiteonline.cn/upload/qwm5.jpg');background-size: cover;">-->
+            <!--<div class="service" style="z-index: -3;text-align:center;margin-top:-100px;width:100%;height:970px;background-image: url('http://tpl-ceb9392.pic31.websiteonline.cn/upload/bg_hk6t.jpg');background-size: cover;">-->
+                <!--<div style="margin:220px auto 0; width: 297px;display: inline-block;">-->
+                    <!--<div>-->
+                        <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/8r7r.png" >-->
+                    <!--</div>-->
+                    <!--<div style="margin:5px auto 0;width: 204px; height: 40px;">-->
+                        <!--<div>-->
+                            <!--<h5 style="outline: none; font-weight: normal; font-size: 26px; font-stretch: normal; line-height: 42px; color: rgb(153, 153, 153); text-align: center;">-->
+                                <!--<span style="color:#b7b2ac;">OUR SERVICE</span>-->
+                            <!--</h5>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div></div>-->
+
+                <!--<div class="service_itemlist" style="text-align: center;margin-top: 70px;">-->
+                    <!--<div class="service_item">-->
+                        <!--<div style="width: 100%; height: 145px;">-->
+                            <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">-->
+                        <!--</div>-->
+                        <!--<p class="service_item_title">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                    <!--</div>-->
+                    <!--<div class="service_item">-->
+                        <!--<div style="width: 100%; height: 145px;">-->
+                            <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">-->
+                        <!--</div>-->
+                        <!--<p class="service_item_title">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                    <!--</div>-->
+                    <!--<div class="service_item">-->
+                        <!--<div style="width: 100%; height: 145px;">-->
+                            <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">-->
+                        <!--</div>-->
+                        <!--<p class="service_item_title">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                    <!--</div>-->
+                    <!--<div class="service_item">-->
+                        <!--<div style="width: 100%; height: 145px;">-->
+                            <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">-->
+                        <!--</div>-->
+                        <!--<p class="service_item_title">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                    <!--</div>-->
+                    <!--<div class="service_item">-->
+                        <!--<div style="width: 100%; height: 145px;">-->
+                            <!--<img src="http://tpl-ceb9392.pic31.websiteonline.cn/upload/service5.png">-->
+                        <!--</div>-->
+                        <!--<p class="service_item_title">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                        <!--<p class="service_item_content">多商户商城</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+
+
             <div class="customer" style="padding:30px 0 70px;">
                 <div style="padding-top: 30px;text-align: center">
                     <div style="font-size: 24px;">合作客户</div>
@@ -200,9 +222,10 @@
                     <div style="font-size:40px ;color: #ffffff;">优质产品  完善服务  真诚合作  诚邀加盟</div>
                     <div style="font-size:30px ;color: #ffffff;padding-top: 10px;">期 待 与 您 共 同 演 绎 精 彩</div>
                     <div style="padding: 40px 0;">
-                        <div class="zg-button">
+                        <a href="#contact"><div class="zg-button">
                             如何加入?
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -218,7 +241,7 @@
                         NEWS
                     </div>
                 </div>
-                <div class="news_item_list" style="margin: 0 auto;color: #5a5a5a;padding:20px 0 20px ;display: inline-block;text-align: left;max-width: 70%;">
+                <div class="news_item_list" style="margin: 0 auto;color: #5a5a5a;padding:20px 0 20px ;display: inline-block;text-align: left;max-width: 900px;">
                     <!--<div class="news_item">-->
                         <!--<div class="news_item_logo">-->
                             <!--<p class="news_item_logo_date">20</p>-->
@@ -239,44 +262,64 @@
                             <!--<p class="news_item_content">随着网站功能日益多元化，网站不仅可以展示</p>-->
                         <!--</div>-->
                     <!--</div>-->
-                    <div class="news_item endline">
-                        <div class="news_item_logo">
-                            <p class="news_item_logo_date">06</p>
-                            <p class="news_item_logo_month">2017-01</p>
+                    <div class="index_news_item">
+                        <div class="index_news_item_logo">
+                            <p class="index_news_item_logo_date">06</p>
+                            <p class="index_news_item_logo_month">2017-01</p>
                         </div>
-                        <div class="news_item_detail">
-                            <p class="news_item_title">热烈庆祝晨正网络正式上线</p>
-                            <p class="news_item_content">热烈庆祝晨正网络正式上线总经理刘晨携全体同仁祝大家新年快乐</p>
-                        </div>
-                    </div>
-                    <div class="news_item">
-                        <div class="news_item_logo">
-                            <p class="news_item_logo_date">06</p>
-                            <p class="news_item_logo_month">2017-01</p>
-                        </div>
-                        <div class="news_item_detail">
-                            <p class="news_item_title">晨正网络和发米网络建立战略合作协议</p>
-                            <p class="news_item_content">晨正网络和发米网络建立战略合作协议</p>
+                        <div class="index_news_item_detail">
+                            <p class="index_news_item_title">热烈庆祝晨正网络正式上线</p>
+                            <p class="index_news_item_content">热烈庆祝晨正网络正式上线总经理刘晨携全体同仁祝大家新年快乐</p>
                         </div>
                     </div>
-                    <div class="news_item">
-                        <div class="news_item_logo">
-                            <p class="news_item_logo_date">06</p>
-                            <p class="news_item_logo_month">2017-01</p>
+                    <div class="index_news_item">
+                        <div class="index_news_item_logo">
+                            <p class="index_news_item_logo_date">06</p>
+                            <p class="index_news_item_logo_month">2017-01</p>
                         </div>
-                        <div class="news_item_detail">
-                            <p class="news_item_title">晨正网络和德国爱他美婴儿奶粉签署合作协议</p>
-                            <p class="news_item_content">晨正网络和德国爱他美婴儿奶粉签署合作协议</p>
+                        <div class="index_news_item_detail">
+                            <p class="index_news_item_title">晨正网络和发米网络建立战略合作协议</p>
+                            <p class="index_news_item_content">晨正网络和发米网络建立战略合作协议</p>
                         </div>
                     </div>
-                    <div class="news_item endline">
-                        <div class="news_item_logo">
-                            <p class="news_item_logo_date">06</p>
-                            <p class="news_item_logo_month">2017-01</p>
+                    <div class="index_news_item">
+                        <div class="index_news_item_logo">
+                            <p class="index_news_item_logo_date">06</p>
+                            <p class="index_news_item_logo_month">2017-01</p>
                         </div>
-                        <div class="news_item_detail">
-                            <p class="news_item_title">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
-                            <p class="news_item_content">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
+                        <div class="index_news_item_detail">
+                            <p class="index_news_item_title">晨正网络和德国爱他美婴儿奶粉签署合作协议</p>
+                            <p class="index_news_item_content">晨正网络和德国爱他美婴儿奶粉签署合作协议</p>
+                        </div>
+                    </div>
+                    <div class="index_news_item">
+                        <div class="index_news_item_logo">
+                            <p class="index_news_item_logo_date">06</p>
+                            <p class="index_news_item_logo_month">2017-01</p>
+                        </div>
+                        <div class="index_news_item_detail">
+                            <p class="index_news_item_title">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
+                            <p class="index_news_item_content">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
+                        </div>
+                    </div>
+                    <div class="index_news_item">
+                        <div class="index_news_item_logo">
+                            <p class="index_news_item_logo_date">06</p>
+                            <p class="index_news_item_logo_month">2017-01</p>
+                        </div>
+                        <div class="index_news_item_detail">
+                            <p class="index_news_item_title">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
+                            <p class="index_news_item_content">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
+                        </div>
+                    </div>
+                    <div class="index_news_item">
+                        <div class="index_news_item_logo">
+                            <p class="index_news_item_logo_date">06</p>
+                            <p class="index_news_item_logo_month">2017-01</p>
+                        </div>
+                        <div class="index_news_item_detail">
+                            <p class="index_news_item_title">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
+                            <p class="index_news_item_content">晨正网络和无锡生生慢食品有限公司签署合作协议</p>
                         </div>
                     </div>
                 </div>
@@ -286,7 +329,7 @@
             </div>
 
             <!--联系我们-->
-            <div class="contact" style="color: white;margin: 50px auto 0;text-align:center;padding-bottom:50px;background:url('http://tpl-ceb9392.pic31.websiteonline.cn/upload/5q61.jpg');background-size: cover;">
+            <div id="contact" class="contact" style="color: white;margin: 50px auto 0;text-align:center;padding-bottom:50px;background:url('http://tpl-ceb9392.pic31.websiteonline.cn/upload/5q61.jpg');background-size: cover;">
                 <div style="margin: 0 auto;padding: 40px 0 50px;text-align: center">
                     <p style="font-size: 35px;color: white">联系我们</p>
                     <p style="font-size: 18px;color: white">CONTACT   US</p>
@@ -361,19 +404,27 @@
                     </div>
                     <div class="footer_link_item">
                         <span>|&nbsp&nbsp</span>
+                        <a href="news.html">新闻中心</a>
+                    </div>
+                    <div class="footer_link_item">
+                        <span>|&nbsp&nbsp</span>
+                        <a href="features.html">我们的服务</a>
+                    </div>
+                    <div class="footer_link_item">
+                        <span>|&nbsp&nbsp</span>
+                        <a href="customer.html">合作项目</a>
+                    </div>
+                    <div class="footer_link_item">
+                        <span>|&nbsp&nbsp</span>
+                        <a href="index.html#solution">技术支持</a>
+                    </div>
+                    <div class="footer_link_item">
+                        <span>|&nbsp&nbsp</span>
                         <a href="about.html"><span>关于我们</span></a>
                     </div>
                     <div class="footer_link_item">
                         <span>|&nbsp&nbsp</span>
-                        <a href="customer.html">项目合作</a>
-                    </div>
-                    <div class="footer_link_item">
-                        <span>|&nbsp&nbsp</span>
-                        <a href="features.html">服务支持</a>
-                    </div>
-                    <div class="footer_link_item">
-                        <span>|&nbsp&nbsp</span>
-                        <a href="news.html">新闻中心</a>
+                        <a href="index.html#contact"><span>联系我们</span></a>
                     </div>
 
                 </div>
