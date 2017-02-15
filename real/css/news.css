@@ -9,7 +9,7 @@
 
 .news_item{
     margin-bottom: 20px;
-    max-height: 150px;
+    /*max-height: 150px;*/
     text-align: left;
     max-width: 500px;
 }

@@ -26,8 +26,12 @@ a{text-decoration:none;}
 .header {
     margin-top:0;
     /*height:120px;*/
-    padding: 20px 0;
+    padding: 10px 0 10px;
     z-index:100;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #c9c9c9;
 
 }
 .footer{

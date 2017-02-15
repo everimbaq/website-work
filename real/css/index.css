@@ -106,17 +106,19 @@
 .index_news_item_detail{
     margin:0 0 0 15px;
     width: 205px;
-    height: 45px;
+    height: 47px;
     display: inline-block;
     padding:3px 0 5px 0;
 }
 
 .index_news_item_title{
     color: #dc3200;
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 8px;
     /*line-height: 30px;*/
 }
+
+.index_news_item_title a{ color: #dc3200;}
 
 
 .index_news_item_content{
