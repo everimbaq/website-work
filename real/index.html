@@ -9,6 +9,31 @@
     <link href="css/banner.css" rel="stylesheet" type="text/css" />
     <link href="css/news.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" language="javascript" src="js/common.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        function send_email(){
+
+            jQuery.post({
+                type: "POST",
+                url: "./php/send.php",
+                data: $('#form_send_email').serialize(),
+                contentType: "application/x-www-form-urlencoded",
+                success:function (data) {
+                    after_email();
+                },
+                error:function (XMLHttpRequest, textStatus, errorThrown) {
+                //错误信息
+                    after_email();
+                }
+            });
+        }
+
+        function after_email(){
+            $('#after_email').removeAttr("onclick").val("发送成功");
+
+        }
+    </script>
+
 </head>
 <body>
     <div class="body" style="">
@@ -330,31 +355,32 @@
 
                     <div class="your_contact" style="margin: 0 0 0 150px;float: left;width: 400px;height:100%;text-align: left">
 
+                        <form id="form_send_email" action="./php/send.php" method="post">
                         <div class="zg-inputbox" style="margin-right: 5px;display: inline-block;" >
                             <div class="zg-inputlabel">姓名</div>
-                            <input type="text"/>
+                            <input type="text" name="name" required="required"/>
                         </div>
                         <div class="zg-inputbox" style="margin-right: 5px;display: inline-block;" >
                             <div class="zg-inputlabel">手机</div>
-                            <input type="text"/>
+                            <input type="text" name="mobile" required="required"/>
                         </div>
                         <div class="zg-inputbox" style="margin-right: 5px;display: inline-block;" >
                             <div class="zg-inputlabel">邮箱</div>
-                            <input type="text"/>
+                            <input type="text" name="email" required="required"/>
                         </div>
                         <div class="zg-inputbox" style="margin-right: 5px;display: inline-block;" >
                             <div class="zg-inputlabel">留言</div>
-                            <input type="text"/>
+                            <input type="text" name="message" required="required"/>
                         </div>
                         <!--<div class="zg-inputbox" style="margin-right: 5px;display: inline-block;" >-->
                             <!--<div class="zg-inputlabel">姓名</div>-->
                             <!--<input type="text"/>-->
                         <!--</div>-->
                         <div style="padding-top:30px;">
-                            <div class="zg-button-rectangle" style="margin: 0">
-                                提交
-                            </div>
+
+                                <input id= "after_email" class="zg-input-submit" type="button" value="提交" onclick="send_email()">
                         </div>
+                        </form>
                     </div>
 
                 </div>

@@ -53,3 +53,17 @@
 .zg-inputlabel{
     padding-bottom: 5px;font-size: 14px;
 }
+
+.zg-input-submit{
+    background-color: #ef3333;
+    padding:7px 20px;
+    font-size:12px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing:2px;
+    font-weight: 500;
+    border: 2px solid white;
+    width: 150px;
+    border-radius: 5px;
+}

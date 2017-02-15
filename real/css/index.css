@@ -75,7 +75,8 @@
 .customer_item{
     width: 200px;
     margin: 0 5px 0 0;
-    display: inline-block;
+    /*display: inline-block;*/
+    display: table-cell;
 }
 
 
@@ -141,4 +142,28 @@
 
 .title-little{
     font-size: 13px;
+}
+
+.case{
+
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.logo{
+    width:200px;
+    height: 120px;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+}
+.logo img{
+    display: inline-block;
+    max-width: 140px;
+    max-height: 100px;
+}
+
+.case .desc{
+    font-size: 15px;
+    margin-top: 5px;
 }
